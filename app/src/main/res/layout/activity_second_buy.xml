@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondBuyActivity">
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="158dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#C565F4"
+        android:fontFamily="sans-serif-black"
+        android:text="Back"
+        android:textSize="21sp"
+        app:icon="@drawable/ic_back_button"
+        app:iconPadding="0dp"
+        app:iconSize="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/post_button"
+        app:layout_constraintTop_toBottomOf="@+id/description_text"
+        app:layout_constraintVertical_bias="0.76"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Small" />
+
+    <ImageView
+        android:id="@+id/titleImageView"
+        android:layout_width="339dp"
+        android:layout_height="293dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/weat" />
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="TextView"
+        android:textColor="#C55FFC"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleImageView" />
+
+    <TextView
+        android:id="@+id/description_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/boogaloo"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_text" />
+
+    <Button
+        android:id="@+id/post_button"
+        android:layout_width="158dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="32dp"
+        android:backgroundTint="#C565F4"
+        android:fontFamily="sans-serif-black"
+        android:text="Post"
+        android:textSize="21sp"
+        app:icon="@drawable/submiticon"
+        app:iconPadding="0dp"
+        app:iconSize="63dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_text"
+        app:layout_constraintVertical_bias="0.76"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Small" />
+
+    <TextView
+        android:id="@+id/price_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/alike"
+        android:text="Enter Price (per kg) ₹:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/post_button"
+        app:layout_constraintEnd_toStartOf="@+id/enter_price"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_text"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/enter_price"
+        android:layout_width="127dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="38dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColorHighlight="@color/purple_200"
+        android:textColorLink="@color/purple_200"
+        app:layout_constraintBottom_toTopOf="@+id/post_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_text"
+        app:layout_constraintVertical_bias="0.294" />
+
+    <Button
+        android:id="@+id/go_cart"
+        android:layout_width="62dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#C565F4"
+        android:textSize="0sp"
+        app:icon="@drawable/carticon"
+        app:iconPadding="0dp"
+        app:iconSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/titleImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Small"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Large" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Farm Friend</string>
+    <string-array name="items">
+        <item>Wheat</item>
+        <item>Cotton</item>
+        <item>Chilly</item>
+        <item>Rice</item>
+        <item>Sugarcane</item>
+        <item>Pepper</item>
+        <item>Turmeric</item>
+        <item>Corn</item>
+        <item>Ragi</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Avg. Price : ₹ 25/ Kilogram</item>
+        <item>Avg. Price : ₹ 80/ Kilogram</item>
+        <item>Avg. Price : ₹ 170/ Kilogram</item>
+        <item>Avg. Price : ₹ 82/ Kilogram</item>
+        <item>Avg. Price : ₹ 25/ Kilogram</item>
+        <item>Avg. Price : ₹ 600/ Kilogram</item>
+        <item>Avg. Price : ₹ 70/ Kilogram</item>
+        <item>Avg. Price : ₹ 90/ Kilogram</item>
+        <item>Avg. Price : ₹ 58/ Kilogram</item>
+    </string-array>
+
+    <string-array name="price_label">
+        <item>Enter Price (per kg) ₹:</item>
+        <item>Enter Price (per kg) ₹:</item>
+        <item>Enter Price (per kg) ₹:</item>
+        <item>Enter Price (per kg) ₹:</item>
+        <item>Enter Price (per kg) ₹:</item>
+        <item>Enter Price (per kg) ₹:</item>
+        <item>Enter Price (per kg) ₹:</item>
+        <item>Enter Price (per kg) ₹:</item>
+        <item>Enter Price (per kg) ₹:</item>
+    </string-array>
+
+    <array name="measures">
+        <item>Kilo</item>
+        <item>Sack</item>
+        <item>gunny</item>
+    </array>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+</resources>

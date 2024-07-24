@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/buy_item"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="buy_item"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/buy_price"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="buy_price"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</androidx.constraintlayout.widget.ConstraintLayout>-->
