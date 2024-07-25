@@ -35,3 +35,28 @@ By providing a transparent platform for price comparison and product availabilit
 - **Dealer Interaction:** Dealers can express interest in products by liking them and offering their prices.
 - **Notifications:** Farmers and dealers receive notifications about offers and requests.
 - **Data Upload:** The selected offer, product quantity, and other relevant data are uploaded to the database.
+
+
+### Home Page:
+
+<img width="241" alt="Screenshot 2024-07-25 at 10 24 26 AM" src="https://github.com/user-attachments/assets/5f246d6c-09ad-416a-8efa-52fd7c7c9259">
+
+### Selling Page for Farmers:
+
+<img width="237" alt="Screenshot 2024-07-25 at 10 22 28 AM" src="https://github.com/user-attachments/assets/62e14440-f560-4189-9264-a6d046a7e3b2">
+
+### Selling a Particular Item:
+
+<img width="241" alt="Screenshot 2024-07-25 at 10 23 23 AM" src="https://github.com/user-attachments/assets/685f7585-a846-4153-98dd-9d4b8ab9e7af">       <img width="237" alt="Screenshot 2024-07-25 at 10 24 01 AM" src="https://github.com/user-attachments/assets/e124b76b-2b24-4124-8e5e-5150dbe5dd91">
+
+### Records and Activities of Farmers:
+
+<img width="237" alt="Screenshot 2024-07-25 at 10 23 02 AM" src="https://github.com/user-attachments/assets/06cb6b7e-292b-44b1-9ad3-bdf6730a993b">
+
+### Buying Page for Dealers:
+
+<img width="239" alt="Screenshot 2024-07-25 at 10 22 46 AM" src="https://github.com/user-attachments/assets/0cdf0f3d-5a94-4766-9184-008d30089348">
+
+### Records and Activities of Dealers:
+
+<img width="239" alt="Screenshot 2024-07-25 at 10 24 39 AM" src="https://github.com/user-attachments/assets/93e96bf5-b225-4f0b-a312-127121ad9f5f">
